@@ -1,10 +1,6 @@
 .wrapper {
   display: flex;
 }
-
-.container {
-  margin: 20px;
-}
 .button:not(:last-child) {
   margin-right: 10px;
 }
