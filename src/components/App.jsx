@@ -34,7 +34,10 @@ class App extends Component {
     return (
       <>
         <Section title="Please leave feedback">
-          <FeedbackOptions onLeaveFeedback={this.setFeedback} />
+          <FeedbackOptions
+            options={['good', 'neutral', 'bad']}
+            onLeaveFeedback={this.setFeedback}
+          />
           {total ? (
             <Statistics
               good={good}
